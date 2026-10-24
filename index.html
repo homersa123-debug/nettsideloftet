@@ -1,1 +1,351 @@
 
+
+<!DOCTYPE html>
+
+<html lang="no">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="theme-color" content="#080f1c">
+
+<meta name="description" content="NettsideLøftet lager moderne nettsider for små norske bedrifter.">
+
+<title>NettsideLøftet | Vi løfter bedriften din på nett</title>
+
+<style>
+
+:root{--bg:#080f1c;--card:#111f31;--cyan:#55ddf3;--text:#f7fbff;--muted:#b1c2d2}
+
+*{box-sizing:border-box}
+
+html{scroll-behavior:smooth}
+
+body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+
+a{color:inherit;text-decoration:none}
+
+header{background:#0c1726;border-bottom:1px solid #25394b;position:sticky;top:0;z-index:10}
+
+nav{max-width:1150px;margin:auto;padding:20px 6%;display:flex;justify-content:space-between;align-items:center;gap:15px}
+
+.logo{font-size:23px;font-weight:900;letter-spacing:-1px}
+
+.logo span,.accent,.eyebrow{color:var(--cyan)}
+
+.navlinks{display:flex;gap:22px;align-items:center}
+
+.navlinks a{font-size:13px;font-weight:bold}
+
+.btn{display:inline-block;background:var(--cyan);color:#07121d;padding:15px 24px;border-radius:8px;font-weight:800;text-align:center}
+
+.btn:hover{background:#9beefa}
+
+.btn-outline{background:transparent;color:white;border:1px solid #71899d}
+
+.hero{background:radial-gradient(circle at 85% 15%,#164665 0%,transparent 48%),linear-gradient(145deg,#0e2034,#080f1c);padding:120px 6%}
+
+.wrap{max-width:1150px;margin:auto}
+
+.eyebrow{font-size:12px;letter-spacing:3px;font-weight:800;text-transform:uppercase}
+
+h1{font-size:clamp(42px,7vw,78px);line-height:1.08;letter-spacing:-2px;margin:18px 0;max-width:850px}
+
+h2{font-size:clamp(30px,4vw,46px);line-height:1.2;margin:15px 0}
+
+.hero p{max-width:620px;font-size:19px;color:#c4d3df;margin-bottom:30px}
+
+.actions{display:flex;gap:13px;flex-wrap:wrap}
+
+section.content{padding:85px 6%}
+
+.muted{color:var(--muted)}
+
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:35px}
+
+.card{background:var(--card);border:1px solid #2b4054;border-radius:13px;padding:28px}
+
+.card h3{font-size:23px;margin:10px 0}
+
+.card p{color:var(--muted)}
+
+.symbol{font-size:35px;color:var(--cyan)}
+
+.price{font-weight:800;color:var(--cyan)}
+
+.dark{background:#0d1928;border-top:1px solid #25394b;border-bottom:1px solid #25394b}
+
+.project{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center;margin-top:35px}
+
+.preview{background:linear-gradient(135deg,#0a1624,#183b50);border:1px solid #2e5268;border-radius:16px;padding:28px;min-height:270px;display:flex;flex-direction:column;justify-content:center}
+
+.preview small{letter-spacing:3px;color:var(--cyan)}
+
+.preview strong{font-size:clamp(34px,5vw,55px);line-height:1.1;margin:15px 0}
+
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:35px}
+
+.stepnum{font-size:38px;font-weight:900;color:var(--cyan)}
+
+.contact{text-align:center;padding:90px 6%;background:linear-gradient(135deg,#103047,#0a1422)}
+
+.contact p{color:#c4d3df}
+
+.contact .actions{justify-content:center;margin-top:28px}
+
+footer{padding:30px 6%;text-align:center;color:#91a5b8;font-size:13px}
+
+.note{font-size:12px;color:#91a5b8}
+
+@media(max-width:760px){
+
+nav{padding:17px 5%}
+
+.logo{font-size:19px}
+
+.navlinks a:not(.btn){display:none}
+
+.navlinks .btn{padding:10px 13px;font-size:12px}
+
+.hero{padding:90px 6%}
+
+.grid,.project,.steps{grid-template-columns:1fr}
+
+section.content{padding:65px 6%}
+
+.actions .btn{width:100%}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<a href="#" class="logo">Nettside<span>Løftet.</span></a>
+
+<div class="navlinks">
+
+<a href="#tjenester">TJENESTER</a>
+
+<a href="#prosjekter">PROSJEKTER</a>
+
+<a href="#kontakt" class="btn">KONTAKT OSS ↗</a>
+
+</div>
+
+</nav>
+
+</header>
+
+<main>
+
+<section class="hero">
+
+<div class="wrap">
+
+<div class="eyebrow">Nettsider for norske bedrifter</div>
+
+<h1>DIN BEDRIFT.<br><span class="accent">ET NIVÅ OPP.</span></h1>
+
+<p>Vi lager moderne, profesjonelle og mobiltilpassede nettsider som hjelper små bedrifter med å gjøre et godt førsteinntrykk på nett.</p>
+
+<div class="actions">
+
+<a href="#prosjekter" class="btn">SE VÅRT ARBEID →</a>
+
+<a href="#kontakt" class="btn btn-outline">FÅ ET UFORPLIKTENDE TILBUD</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="content" id="tjenester">
+
+<div class="wrap">
+
+<div class="eyebrow">Hva vi tilbyr</div>
+
+<h2>En bedre digital førsteopplevelse.</h2>
+
+<p class="muted">Enkle, gjennomførte nettsider tilpasset bedriftens behov.</p>
+
+<div class="grid">
+
+<article class="card">
+
+<div class="symbol">✦</div>
+
+<h3>Moderne design</h3>
+
+<p>Et profesjonelt uttrykk som passer bedriftens stil, tjenester og målgruppe.</p>
+
+<p class="price">Pris på forespørsel</p>
+
+</article>
+
+<article class="card">
+
+<div class="symbol">▣</div>
+
+<h3>Mobiltilpasset</h3>
+
+<p>Nettsider som fungerer på mobil, nettbrett og datamaskin.</p>
+
+<p class="price">Pris på forespørsel</p>
+
+</article>
+
+<article class="card">
+
+<div class="symbol">↗</div>
+
+<h3>Enkel kontakt</h3>
+
+<p>Tydelige knapper som gjør det enkelt for kunder å ringe eller sende e-post.</p>
+
+<p class="price">Pris på forespørsel</p>
+
+</article>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="content dark" id="prosjekter">
+
+<div class="wrap">
+
+<div class="eyebrow">Portefølje</div>
+
+<h2>Se hva vi kan lage.</h2>
+
+<p class="muted">Vårt første demonstrasjonsprosjekt.</p>
+
+<div class="project">
+
+<div class="preview">
+
+<small>DEMONSTRASJONSPROSJEKT</small>
+
+<strong>NORD<span class="accent">GLANS.</span></strong>
+
+<p>Premium bilpleie – moderne nettsidedesign.</p>
+
+</div>
+
+<div>
+
+<h2>Nordglans Bilpleie</h2>
+
+<p class="muted">En moderne demonstrasjonsnettside for en fiktiv bilpleiebedrift. Prosjektet viser et eksklusivt design med tjenester, bilder og kontaktmuligheter.</p>
+
+<p class="note">Dette er et porteføljeprosjekt, ikke en betalende kundereferanse.</p>
+
+<a class="btn" href="https://homersa123-debug.github.io/Nordglans-demo/" target="_blank" rel="noopener noreferrer">SE PROSJEKTET ↗</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="content" id="prosess">
+
+<div class="wrap">
+
+<div class="eyebrow">Slik jobber vi</div>
+
+<h2>Enkelt fra idé til nettside.</h2>
+
+<div class="steps">
+
+<div>
+
+<div class="stepnum">01</div>
+
+<h3>Vi tar en prat</h3>
+
+<p class="muted">Du forteller om bedriften og hva nettsiden skal gjøre.</p>
+
+</div>
+
+<div>
+
+<div class="stepnum">02</div>
+
+<h3>Vi lager et forslag</h3>
+
+<p class="muted">Du får se et design og kan komme med tilbakemeldinger.</p>
+
+</div>
+
+<div>
+
+<div class="stepnum">03</div>
+
+<h3>Vi publiserer</h3>
+
+<p class="muted">Når løsningen er godkjent, hjelper vi deg med å få nettsiden på nett.</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="contact" id="kontakt">
+
+<div class="wrap">
+
+<div class="eyebrow">La oss ta en prat</div>
+
+<h2>KLAR FOR Å LØFTE BEDRIFTEN DIN?</h2>
+
+<p>Fortell litt om bedriften din og hva du ønsker deg. Vi tar gjerne en uforpliktende prat.</p>
+
+<div class="actions">
+
+<a class="btn" href="mailto:remsti02@gmail.com?subject=Foresp%C3%B8rsel%20til%20NettsideL%C3%B8ftet">SEND E-POST ↗</a>
+
+<a class="btn btn-outline" href="tel:+4793847061">RING 938 47 061</a>
+
+</div>
+
+<p class="note">NettsideLøftet er et nytt nettsideprosjekt under oppbygging.</p>
+
+</div>
+
+</section>
+
+</main>
+
+<footer>
+
+<strong>NettsideLøftet.</strong>
+
+<p>Vi løfter bedriften din på nett.</p>
+
+<p>© 2026 NettsideLøftet · Porteføljenettside</p>
+
+</footer>
+
+</body>
+
+</html>
